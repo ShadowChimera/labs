@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>Лабораторная работа №4</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="img.jpg">
+    <body>
+        <div class="content">
+            <form id="registration_form" class="form">
+                <div class="form_title">
+                    <div class="round_border"></div>
+                    <p>Регистрация</p>
+                    <div class="round_border"></div>
+                </div>
+                <p>Имя</p>
+                <input type="text" name="name" form="registration_form" placeholder="Имя">
+                <p>Фамилия</p>
+                <input type="text" name="surname" form="registration_form" placeholder="Фамилия">
+                <p>Наименование организации</p>
+                <input type="text" name="organisation" form="registration_form" placeholder="Организация">
+                <p>Номер кредитной карты</p>
+                <input type="text" name="credit_card" form="registration_form" placeholder="Номер карты">
+                <p>Номер телефона</p>
+                <input type="text" name="phone" form="registration_form" placeholder="Номер телефона">
+                <p>Адрес электронной почты</p>
+                <input type="text" name="e-mail" form="registration_form" placeholder="Почта">
+                <div class="buttons">
+                    <input type="submit" form="registration_form">
+                    <input type="reset" form="registration_form">
+                </div>
+            </form>
+        </div>
+        <div class="content">
+            <form id="RegExp_form" class="form">
+                <div class="form_title">
+                    <div class="round_border"></div>
+                    <p>Регулярное выражение</p>
+                    <div class="round_border"></div>
+                </div>
+                <p>Строка</p>
+                <input type="text" name="string" form="RegExp_form">
+                <p>Применяемое регулярное выражение</p>
+                <input type="text" name="pattern" form="RegExp_form" readonly>
+                <div class="buttons">
+                    <input type="submit" form="RegExp_form" value="Применить">
+                </div>
+                <p>Найденные слова</p>
+                <ol>
+                </ol>
+            </form>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+
+</html>

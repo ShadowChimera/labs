@@ -1,0 +1,114 @@
+#code_buttons ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#code_buttons a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+}
+#code_buttons a:active {
+    color: black;
+}
+#code_buttons a:visited  {
+    color: black;
+}
+#code_buttons a:link  {
+    color: black;
+}
+.topmenu {
+    background-color: rgb(239, 236, 223);
+    position: relative;
+    z-index: 10;
+    border: 1px solid #634f36;
+    border-bottom: none;
+}
+.topmenu > li {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100px;
+}
+.topmenu > li > a {
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 75px;
+}
+.topmenu > li:hover {
+    background-color: rgb(230, 226, 208);
+    border-right: 1px solid #634f36;
+    border-left: 1px solid #634f36;
+}
+.topmenu > li:first-child:hover {
+    border-left: none;
+}
+.topmenu > li:last-child:hover {
+    border-right: none;
+}
+.topmenu > li:hover .fix_border {
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(230, 226, 208);
+    width: 100%;
+    height: 1px;
+    top: 29px;
+}
+.topmenu > li:hover > a {
+    padding-left: 9px;
+}
+.topmenu > li:first-child:hover > a {
+    padding-left: 10px;
+}
+.submenu {
+    background-color: rgb(230, 226, 208);
+    border: 1px solid #634f36;
+    position: absolute;
+    left: -1px;
+    top: 29px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: fit-content;
+    z-index: 5;
+    visibility: hidden;
+}
+.topmenu > li:hover .submenu {
+    visibility: visible;
+}
+.submenu li a {
+    line-height: 30px;
+    padding: 0 10px;
+}
+.submenu li:hover {
+    background: linear-gradient(90deg, rgb(239, 236, 223, 0.75), rgba(255, 255, 255, 0));
+}
+.submenu li:active {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(239, 236, 223, 0.75));
+}
+
+#code_content {
+    border: dashed 1px #634f36;
+    background: #fffff5;
+    width: 100%;
+    max-width: 100%;
+    min-width: 311px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 100%;
+    margin-top: -1px;
+    position: relative;
+    z-index: 5;
+    padding: 10px;
+}
+
+iframe {
+    border: none;
+    min-width: 311px;
+    width: 100%;
+    height: 100%;
+}

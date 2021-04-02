@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>Лабораторная работа №1</title>
+        <link href="report_style.css" rel="stylesheet" type="text/css">
+        <link href="resources_style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <header>
+            <p>ЛАБОРАТОРНАЯ РАБОТА №1</p>
+            <div id="control_buttons">
+                <button type="button" value="lab1_conditions.html">Условие работы</button><button type="button" value="lab1_results.html">Результат</button><button type="button" style="font-weight: bold;" value="lab1_resources.html">Ресурсы</button>
+            </div>
+        </header>
+        <div id="content">
+            <div>
+                <div id="code_buttons">
+                    <ul class="topmenu">
+                        <li><a href="">HTML</a>
+                            <div class="fix_border"></div>
+                            <ul class="submenu html">                                
+                                <li><a href="">index</a></li>
+                                <li><a href="">lab1_conditions</a></li>
+                                <li><a href="">lab1_results</a></li>
+                                <li><a href="">lab1_resources</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">CSS</a>
+                            <div class="fix_border"></div>
+                            <ul class="submenu css">
+                                <li><a href="">style</a></li>
+                                <li><a href="">report_style</a></li>
+                                <li><a href="">resources_style</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">JS</a>
+                            <div class="fix_border"></div>
+                            <ul class="submenu js">
+                                <li><a href="">scripts</a></li>
+                                <li><a href="">report_scripts</a></li>
+                                <li><a href="">resources_scripts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="code_content">
+                    <iframe></iframe>
+                </div>
+            </div>
+        </div>
+        <script src="report_scripts.js"></script>
+        <script src="resources_scripts.js"></script>
+    </body>
+
+</html>
