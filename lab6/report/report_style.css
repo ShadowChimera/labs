@@ -60,6 +60,17 @@ header > p {
     text-align: center;
 }
 
+.conditions_list li {
+    text-transform: lowercase;
+}
+.conditions_list li:after {
+    content: ";";
+}
+.conditions_list li:last-child:after{
+    content: "";
+}
+
+
 #result {
     position: absolute;
     left: 0px;

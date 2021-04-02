@@ -1,50 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale=1.0">
         <title>Лабораторная работа №4</title>
         <link href="style.css" rel="stylesheet" type="text/css">
-        <link href="img.jpg">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
         <script type="text/javascript" src="jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="jquery.color-2.1.2.js"></script>
     <body>
-        <div class="sector changeable-paragraphs">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare at lectus quis pellentesque. Sed et dignissim eros. Phasellus ut erat vitae nisl tempus molestie nec eget urna. Donec tristique mattis tellus vitae mattis. Aliquam felis diam, vulputate in porta sit amet, dapibus eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
-            </p>
-            <p>
-                Mauris ut viverra felis, ac iaculis libero. Fusce lacinia vitae ante vel dapibus. Pellentesque volutpat risus vitae libero varius, vel vulputate felis vulputate. Ut lacinia dapibus ornare. Suspendisse in mauris nec libero hendrerit consectetur. Nam maximus orci id velit consequat, nec commodo neque molestie. Curabitur cursus diam vitae viverra porttitor. Duis eget facilisis augue. Praesent ut malesuada arcu. Pellentesque iaculis, elit pretium lacinia vestibulum, velit est vulputate nisl, id ornare magna nulla quis tortor. In dignissim blandit dolor vitae tincidunt. Mauris posuere urna non pharetra posuere. Phasellus laoreet porttitor lorem vitae malesuada. Maecenas neque orci, euismod quis euismod eu, pretium et ex.
-            </p>
-            <p>
-                Nullam dapibus vulputate nibh in aliquet. Quisque scelerisque felis nulla, vel tempus augue tempus sit amet. Proin varius enim justo, quis fermentum tortor cursus eu. Cras eleifend, ex vel aliquam pellentesque, ante tellus hendrerit nibh, ut blandit enim neque at quam. Praesent pretium elementum eros, eu bibendum metus pulvinar ut. Phasellus id mi turpis. Fusce blandit risus a rhoncus vulputate.
-            </p>
-            <p>
-                Mauris lacinia, leo eget porttitor lacinia, mi dolor rutrum nulla, at consequat enim dui ut arcu. Nulla facilisi. Nulla facilisi. Nam id lacinia nulla. Vestibulum quis elementum orci, et luctus dui. Etiam ut tortor elit. Sed euismod, lacus at maximus consectetur, massa leo lobortis velit, vestibulum lobortis mi augue eu ex. Donec eget diam magna. Curabitur venenatis dui ut eros imperdiet vulputate. In tristique commodo risus, pulvinar cursus mauris lacinia sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ornare condimentum orci, id aliquam nisi ultrices sed. Duis ante libero, lobortis quis dignissim id, laoreet ut turpis. Cras euismod condimentum ex, sit amet aliquam nunc semper sed. Morbi eget nulla dictum, commodo ipsum vel, malesuada tortor. Fusce lobortis eros sit amet sapien interdum commodo.
-            </p>
-            <p>
-                Sed accumsan, nisl eu dictum scelerisque, libero odio sagittis odio, vulputate accumsan sem dui quis ligula. In nec urna at metus blandit iaculis sed vitae lorem. Fusce ac molestie augue. Vestibulum tempus arcu sed erat lobortis, ac egestas lorem scelerisque. Nulla varius enim nibh, ac auctor nulla pellentesque vel. Donec sollicitudin vehicula massa, at vulputate libero congue eu. Pellentesque et erat a est varius varius. Donec turpis lacus, fermentum sit amet molestie id, fermentum fermentum turpis. Cras placerat quam at diam laoreet, eget ornare tellus pretium. Nulla euismod erat at dui malesuada, ut faucibus sapien scelerisque. Morbi et felis sollicitudin, auctor neque sollicitudin, faucibus mi. Duis tellus lacus, elementum nec imperdiet in, aliquam eget dui.
-            </p>
-        </div>
-        <div class="sector animation">
-            <div class="block"></div>
-        </div>
-        <div class="sector content">
-            <form id="order-form" class="form">
-                <div class="form_title">
-                    <div class="round_border"></div>
-                    <p>Оформление заказа</p>
-                    <div class="round_border"></div>
-                </div>
-                <p>Выберите пиццу:</p>
-                <input type="radio" name="pizzaName" id="firstPizza" form="order-form">
-                <label for="firstPizza">Маргарита</label><br>
-                <input type="radio" name="pizzaName" id="secondPizza" form="order-form">
-                <label for="secondPizza">Четыре сыра</label><br>
-                <input type="checkbox" name="createOwnPizza" id="thirdPizza" form="order-form">
-                <label for="thirdPizza">Создать свою</label><br>
-            </form>
-        </div>
+        <header>
+            <button>
+                Запустить анимацию
+            </button>
+        </header>
+        <div class="animated-block"></div>
+
+
         <script src="scripts.js"></script>
     </body>
 

@@ -17,21 +17,41 @@ button:active {
     border: none;
 }
 button {
-    outline: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
-    font-weight: bold;
-    height: 2.5em;
-    padding: 0 1em;
-    line-height: 2.5em; 
     margin: 10px;
-    background-color: #be926f;
+    position: relative;
+
+    padding: 0 1em;
+
+    outline: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.5em; 
     color: #fff;
-    border-bottom: 4px solid #be926f;
-    transition: border-bottom, .2s linear;
+
+    background-color: #be926f;
 }
-button:hover {
-    border-bottom: 4px solid #572313;
+
+button:after {
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 4px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-color: #572313;
+    opacity: 0;
+
+    transition: opacity, .2s linear;
+}
+
+button:hover:after {
+    opacity: 1;
 }
 
 .animated-block {
